@@ -1,2 +1,20 @@
-# USRockets
-Contains some of the older, more obscure US launchers
+This mod contains some obscure US rockets. I will be adding to it occasionally.
+
+Included now:
+
+-Scout X1-X4, G Rocket
+
+**Picture Album:** http://imgur.com/a/FwIMO
+
+![alt tag](http://i.imgur.com/bdsCyAs.png)
+
+##License:
+
+![alt tag](https://licensebuttons.net/l/by-nc-nd/3.0/88x31.png)
+
+https://creativecommons.org/licenses/by-nc-nd/3.0/us/
+
+
+**This license does not cover mod packs. Putting my work into a mod pack is prohibited.**
+
+**Using any of my mods names or likenesses, including in derivative works, expansions, addons is prohibited**
