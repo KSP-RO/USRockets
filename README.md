@@ -9,7 +9,7 @@ Included now:
 ![alt tag](http://i.imgur.com/bdsCyAs.png)
 
 ##Old School Fairings Support:
-* If you use old schhol fairings by Felbourn, here is a module manager config to make the fairings in this mod compatible: [https://www.mediafire.com/?tkyu1i4m8efuu2l](https://www.mediafire.com/?tkyu1i4m8efuu2l)
+* If you use old school fairings by Felbourn, here is a module manager config to make the fairings in this mod compatible: [https://www.mediafire.com/?tkyu1i4m8efuu2l](https://www.mediafire.com/?tkyu1i4m8efuu2l)
 
 ##License:
 
