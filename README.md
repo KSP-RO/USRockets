@@ -3,10 +3,14 @@ This mod contains some obscure US rockets. I will be adding to it occasionally.
 Included now:
 
 -Scout X1-X4, G Rocket
+-Juno-II
+-Thor-Able
+-Delta
+-Thor-Epsilon
 
 **Picture Album:** http://imgur.com/a/FwIMO
 
-![alt tag](http://i.imgur.com/bdsCyAs.png)
+![alt tag](http://i.imgur.com/faOQg5U.png)
 
 ##Old School Fairings Support:
 * If you use old school fairings by Felbourn, here is a module manager config to make the fairings in this mod compatible: [https://www.dropbox.com/s/a6p6pnfmf5hzrwf/RN_OSF.cfg?dl=0](https://www.dropbox.com/s/a6p6pnfmf5hzrwf/RN_OSF.cfg?dl=0)
