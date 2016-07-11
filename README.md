@@ -8,6 +8,7 @@ Included now:
 * Delta
 * Thor-Epsilon
 * Aerobee
+* Titan IV
 
 **Picture Album:** http://imgur.com/a/FwIMO
 
