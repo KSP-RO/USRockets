@@ -12,7 +12,7 @@ Included now:
 
 **Picture Album:** http://imgur.com/a/FwIMO
 
-![alt tag](http://i.imgur.com/faOQg5U.png)
+![alt tag](http://i.imgur.com/AXMiYpQ.png)
 
 ![alt tag](http://i.imgur.com/vF8OQYJ.png)
 
