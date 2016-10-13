@@ -1,11 +1,11 @@
-ship = Aerobee 150
+ship = RN Stock Aerobee 100
 version = 1.1.2
 description = 
 type = VAB
-size = 1.129666,7.478115,0.9783198
+size = 1.130983,6.488533,0.9794604
 PART
 {
-	part = rn.aerobee150.sas_4294429812
+	part = rn.aerobee150.sas_4294670620
 	partName = Part
 	pos = 0,15,0
 	attPos = 0,0,0
@@ -24,10 +24,10 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
-	link = rn.aerobee150.mb2_4294425736
-	link = rn.aerobee150.nc_4294367490
-	attN = top,rn.aerobee150.nc_4294367490
-	attN = bottom,rn.aerobee150.mb2_4294425736
+	link = rn.aerobee100.mb_4294666068
+	link = rn.aerobee150.nc_4294657598
+	attN = top,rn.aerobee150.nc_4294657598
+	attN = bottom,rn.aerobee100.mb_4294666068
 	EVENTS
 	{
 	}
@@ -735,11 +735,11 @@ PART
 }
 PART
 {
-	part = rn.aerobee150.mb2_4294425736
+	part = rn.aerobee100.mb_4294666068
 	partName = Part
-	pos = 0,12.97906,0
+	pos = 0,13.47385,0
 	attPos = 0,0,0
-	attPos0 = 0,-2.020944,0
+	attPos0 = 0,-1.526152,0
 	rot = 0,0,0,1
 	attRot = 0,0,0,1
 	attRot0 = 0,0,0,1
@@ -754,14 +754,14 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
-	link = rn.aerobee150.eng_4294413746
-	link = rn.aerobee150.fin2_4294392496
-	link = rn.aerobee150.fin2_4294392328
-	link = rn.aerobee150.fin2_4294392290
-	link = rn.aerobee150.srb.dec_4294381636
-	attN = top,rn.aerobee150.sas_4294429812
-	attN = bottom,rn.aerobee150.srb.dec_4294381636
-	attN = e,rn.aerobee150.eng_4294413746
+	link = rn.aerobee150.eng_4294664682
+	link = rn.aerobee150.srb.dec_4294663290
+	link = rn.aerobee150.fin2_4294659652
+	link = rn.aerobee150.fin2_4294659610
+	link = rn.aerobee150.fin2_4294659572
+	attN = top,rn.aerobee150.sas_4294670620
+	attN = bottom,rn.aerobee150.srb.dec_4294663290
+	attN = e,rn.aerobee150.eng_4294664682
 	EVENTS
 	{
 	}
@@ -771,87 +771,11 @@ PART
 	PARTDATA
 	{
 	}
-	MODULE
-	{
-		name = FStextureSwitch2
-		isEnabled = True
-		selectedTexture = 0
-		selectedTextureURL = RN_US_Rockets/Aerobee/aerobee150_main2
-		selectedMapURL = 
-		stagingEnabled = True
-		EVENTS
-		{
-			listAllObjects
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Debug: Log Objects
-				guiName = Debug: Log Objects
-				category = Debug: Log Objects
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			nextTextureEvent
-			{
-				active = True
-				guiActive = False
-				guiActiveEditor = True
-				guiActiveUncommand = False
-				guiIcon = Next Texture
-				guiName = Change Texture
-				category = Next Texture
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			previousTextureEvent
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Previous Texture
-				guiName = Previous Texture
-				category = Previous Texture
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			nextTextureEVAEvent
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Repaint
-				guiName = Repaint
-				category = Repaint
-				guiActiveUnfocused = False
-				unfocusedRange = 5
-				externalToEVAOnly = True
-			}
-			ToggleStaging
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Disable Staging
-				guiName = Disable Staging
-				category = Disable Staging
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
 	RESOURCE
 	{
 		name = LiquidFuel
-		amount = 22.05
-		maxAmount = 22.05
+		amount = 11.025
+		maxAmount = 11.025
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -861,8 +785,8 @@ PART
 	RESOURCE
 	{
 		name = Oxidizer
-		amount = 26.95
-		maxAmount = 26.95
+		amount = 13.475
+		maxAmount = 13.475
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -872,11 +796,11 @@ PART
 }
 PART
 {
-	part = rn.aerobee150.eng_4294413746
+	part = rn.aerobee150.eng_4294664682
 	partName = Part
-	pos = 0,11.17215,0
+	pos = 0,12.16174,0
 	attPos = 0,0,0
-	attPos0 = 0,-1.806904,0
+	attPos0 = 0,-1.312112,0
 	rot = 0,0,0,1
 	attRot = 0,0,0,1
 	attRot0 = 0,0,0,1
@@ -885,13 +809,13 @@ PART
 	istg = 0
 	dstg = 1
 	sidx = 0
-	sqor = 1
+	sqor = 0
 	sepI = 0
 	attm = 0
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
-	attN = top,rn.aerobee150.mb2_4294425736
+	attN = top,rn.aerobee100.mb_4294666068
 	EVENTS
 	{
 	}
@@ -978,413 +902,11 @@ PART
 }
 PART
 {
-	part = rn.aerobee150.fin2_4294392496
+	part = rn.aerobee150.srb.dec_4294663290
 	partName = Part
-	pos = 1.320937E-08,11.33793,-0.1510975
+	pos = 0,11.95579,0
 	attPos = 0,0,0
-	attPos0 = 1.320937E-08,-1.641128,-0.1510975
-	rot = -1.261699E-07,0.7071069,1.261698E-07,-0.7071068
-	attRot = 0,0,0,1
-	attRot0 = -1.261699E-07,0.7071069,1.261698E-07,-0.7071068
-	mir = 1,1,1
-	symMethod = Radial
-	istg = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	sepI = 0
-	attm = 1
-	modCost = 0
-	modMass = 0
-	modSize = (0.0, 0.0, 0.0)
-	sym = rn.aerobee150.fin2_4294392328
-	sym = rn.aerobee150.fin2_4294392290
-	srfN = srfAttach,rn.aerobee150.mb2_4294425736
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleLiftingSurface
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-			ToggleStaging
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Disable Staging
-				guiName = Disable Staging
-				category = Disable Staging
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = FStextureSwitch2
-		isEnabled = True
-		selectedTexture = 1
-		selectedTextureURL = RN_US_Rockets/Aerobee/aerobee150_main2
-		selectedMapURL = 
-		stagingEnabled = True
-		EVENTS
-		{
-			listAllObjects
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Debug: Log Objects
-				guiName = Debug: Log Objects
-				category = Debug: Log Objects
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			nextTextureEvent
-			{
-				active = True
-				guiActive = False
-				guiActiveEditor = True
-				guiActiveUncommand = False
-				guiIcon = Next Texture
-				guiName = Change Texture
-				category = Next Texture
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			previousTextureEvent
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Previous Texture
-				guiName = Previous Texture
-				category = Previous Texture
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			nextTextureEVAEvent
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Repaint
-				guiName = Repaint
-				category = Repaint
-				guiActiveUnfocused = False
-				unfocusedRange = 5
-				externalToEVAOnly = True
-			}
-			ToggleStaging
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Disable Staging
-				guiName = Disable Staging
-				category = Disable Staging
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-}
-PART
-{
-	part = rn.aerobee150.fin2_4294392328
-	partName = Part
-	pos = -0.1308543,11.33793,0.07554878
-	attPos = 0,0,0
-	attPos0 = -0.1308543,-1.641128,0.07554878
-	rot = 4.618136E-08,-0.258819,1.723512E-07,-0.9659259
-	attRot = 0,0,0,1
-	attRot0 = 4.618136E-08,-0.258819,1.723512E-07,-0.9659259
-	mir = 1,1,1
-	symMethod = Radial
-	istg = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	sepI = 0
-	attm = 1
-	modCost = 0
-	modMass = 0
-	modSize = (0.0, 0.0, 0.0)
-	sym = rn.aerobee150.fin2_4294392496
-	sym = rn.aerobee150.fin2_4294392290
-	srfN = srfAttach,rn.aerobee150.mb2_4294425736
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleLiftingSurface
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-			ToggleStaging
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Disable Staging
-				guiName = Disable Staging
-				category = Disable Staging
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = FStextureSwitch2
-		isEnabled = True
-		selectedTexture = 1
-		selectedTextureURL = RN_US_Rockets/Aerobee/aerobee150_main2
-		selectedMapURL = 
-		stagingEnabled = True
-		EVENTS
-		{
-			listAllObjects
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Debug: Log Objects
-				guiName = Debug: Log Objects
-				category = Debug: Log Objects
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			nextTextureEvent
-			{
-				active = True
-				guiActive = False
-				guiActiveEditor = True
-				guiActiveUncommand = False
-				guiIcon = Next Texture
-				guiName = Change Texture
-				category = Next Texture
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			previousTextureEvent
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Previous Texture
-				guiName = Previous Texture
-				category = Previous Texture
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			nextTextureEVAEvent
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Repaint
-				guiName = Repaint
-				category = Repaint
-				guiActiveUnfocused = False
-				unfocusedRange = 5
-				externalToEVAOnly = True
-			}
-			ToggleStaging
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Disable Staging
-				guiName = Disable Staging
-				category = Disable Staging
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-}
-PART
-{
-	part = rn.aerobee150.fin2_4294392290
-	partName = Part
-	pos = 0.1308543,11.33793,0.07554878
-	attPos = 0,0,0
-	attPos0 = 0.1308543,-1.641128,0.07554878
-	rot = 1.723512E-07,-0.9659259,4.618137E-08,-0.2588191
-	attRot = 0,0,0,1
-	attRot0 = 1.723512E-07,-0.9659259,4.618137E-08,-0.2588191
-	mir = 1,1,1
-	symMethod = Radial
-	istg = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	sepI = 0
-	attm = 1
-	modCost = 0
-	modMass = 0
-	modSize = (0.0, 0.0, 0.0)
-	sym = rn.aerobee150.fin2_4294392496
-	sym = rn.aerobee150.fin2_4294392328
-	srfN = srfAttach,rn.aerobee150.mb2_4294425736
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleLiftingSurface
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-			ToggleStaging
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Disable Staging
-				guiName = Disable Staging
-				category = Disable Staging
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = FStextureSwitch2
-		isEnabled = True
-		selectedTexture = 1
-		selectedTextureURL = RN_US_Rockets/Aerobee/aerobee150_main2
-		selectedMapURL = 
-		stagingEnabled = True
-		EVENTS
-		{
-			listAllObjects
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Debug: Log Objects
-				guiName = Debug: Log Objects
-				category = Debug: Log Objects
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			nextTextureEvent
-			{
-				active = True
-				guiActive = False
-				guiActiveEditor = True
-				guiActiveUncommand = False
-				guiIcon = Next Texture
-				guiName = Change Texture
-				category = Next Texture
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			previousTextureEvent
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Previous Texture
-				guiName = Previous Texture
-				category = Previous Texture
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			nextTextureEVAEvent
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Repaint
-				guiName = Repaint
-				category = Repaint
-				guiActiveUnfocused = False
-				unfocusedRange = 5
-				externalToEVAOnly = True
-			}
-			ToggleStaging
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Disable Staging
-				guiName = Disable Staging
-				category = Disable Staging
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-}
-PART
-{
-	part = rn.aerobee150.srb.dec_4294381636
-	partName = Part
-	pos = 0,10.96621,0
-	attPos = 0,0,0
-	attPos0 = 0,-2.012848,0
+	attPos0 = 0,-1.518056,0
 	rot = 0,0,0,1
 	attRot = 0,0,0,1
 	attRot0 = 0,0,0,1
@@ -1399,9 +921,9 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
-	link = rn.aerobee150.srb_4294387722
-	attN = top,rn.aerobee150.mb2_4294425736
-	attN = bottom,rn.aerobee150.srb_4294387722
+	link = rn.aerobee150.srb_4294662220
+	attN = top,rn.aerobee100.mb_4294666068
+	attN = bottom,rn.aerobee150.srb_4294662220
 	EVENTS
 	{
 	}
@@ -1464,9 +986,9 @@ PART
 }
 PART
 {
-	part = rn.aerobee150.srb_4294387722
+	part = rn.aerobee150.srb_4294662220
 	partName = Part
-	pos = 0,10.19401,0
+	pos = 0,11.18359,0
 	attPos = 0,0,0
 	attPos0 = 0,-0.7722006,0
 	rot = 0,0,0,1
@@ -1477,16 +999,16 @@ PART
 	istg = 1
 	dstg = 3
 	sidx = 0
-	sqor = 3
+	sqor = 1
 	sepI = 0
 	attm = 0
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
-	link = rn.aerobee150.srb.fin_4294377724
-	link = rn.aerobee150.srb.fin_4294377228
-	link = rn.aerobee150.srb.fin_4294377184
-	attN = top,rn.aerobee150.srb.dec_4294381636
+	link = rn.aerobee150.srb.fin_4294661004
+	link = rn.aerobee150.srb.fin_4294660904
+	link = rn.aerobee150.srb.fin_4294660860
+	attN = top,rn.aerobee150.srb.dec_4294663290
 	EVENTS
 	{
 	}
@@ -1584,14 +1106,14 @@ PART
 }
 PART
 {
-	part = rn.aerobee150.srb.fin_4294377724
+	part = rn.aerobee150.srb.fin_4294661004
 	partName = Part
-	pos = 1.153433E-08,9.795092,-0.1319373
+	pos = -1.144198E-08,10.80694,-0.130881
 	attPos = 0,0,0
-	attPos0 = 1.153433E-08,-0.3989162,-0.1319373
-	rot = -1.261698E-07,0.7071069,1.261698E-07,-0.7071068
+	attPos0 = -1.144198E-08,-0.3766527,-0.130881
+	rot = -1.261698E-07,0.7071068,1.261698E-07,-0.7071068
 	attRot = 0,0,0,1
-	attRot0 = -1.261698E-07,0.7071069,1.261698E-07,-0.7071068
+	attRot0 = -1.261698E-07,0.7071068,1.261698E-07,-0.7071069
 	mir = 1,1,1
 	symMethod = Radial
 	istg = 4
@@ -1603,9 +1125,9 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
-	sym = rn.aerobee150.srb.fin_4294377228
-	sym = rn.aerobee150.srb.fin_4294377184
-	srfN = srfAttach,rn.aerobee150.srb_4294387722
+	sym = rn.aerobee150.srb.fin_4294660904
+	sym = rn.aerobee150.srb.fin_4294660860
+	srfN = srfAttach,rn.aerobee150.srb_4294662220
 	EVENTS
 	{
 	}
@@ -1642,18 +1164,268 @@ PART
 }
 PART
 {
-	part = rn.aerobee150.srb.fin_4294377228
+	part = rn.aerobee150.srb.fin_4294660904
 	partName = Part
-	pos = -0.1142611,9.795092,0.06596866
+	pos = -0.1133463,10.80694,0.06544054
 	attPos = 0,0,0
-	attPos0 = -0.1142611,-0.3989162,0.06596866
+	attPos0 = -0.1133463,-0.3766527,0.06544054
+	rot = 4.618138E-08,-0.2588192,1.723512E-07,-0.9659259
+	attRot = 0,0,0,1
+	attRot0 = 4.618138E-08,-0.2588192,1.723512E-07,-0.9659259
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 4
+	dstg = 4
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	sym = rn.aerobee150.srb.fin_4294661004
+	sym = rn.aerobee150.srb.fin_4294660860
+	srfN = srfAttach,rn.aerobee150.srb_4294662220
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleLiftingSurface
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = rn.aerobee150.srb.fin_4294660860
+	partName = Part
+	pos = 0.1133463,10.80694,0.06544051
+	attPos = 0,0,0
+	attPos0 = 0.1133463,-0.3766527,0.06544051
+	rot = 1.723512E-07,-0.9659259,4.618134E-08,-0.2588189
+	attRot = 0,0,0,1
+	attRot0 = 1.723512E-07,-0.9659259,4.618134E-08,-0.2588189
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 4
+	dstg = 4
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	sym = rn.aerobee150.srb.fin_4294661004
+	sym = rn.aerobee150.srb.fin_4294660904
+	srfN = srfAttach,rn.aerobee150.srb_4294662220
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleLiftingSurface
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = rn.aerobee150.fin2_4294659652
+	partName = Part
+	pos = 1.327584E-08,12.33923,-0.1518579
+	attPos = 0,0,0
+	attPos0 = 1.327584E-08,-1.134621,-0.1518579
+	rot = -1.261699E-07,0.7071068,1.261698E-07,-0.7071068
+	attRot = 0,0,0,1
+	attRot0 = -1.261699E-07,0.7071069,1.261698E-07,-0.7071068
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	sym = rn.aerobee150.fin2_4294659610
+	sym = rn.aerobee150.fin2_4294659572
+	srfN = srfAttach,rn.aerobee100.mb_4294666068
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleLiftingSurface
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FStextureSwitch2
+		isEnabled = True
+		selectedTexture = 0
+		selectedTextureURL = RN_US_Rockets/Aerobee/aerobee100_main
+		selectedMapURL = 
+		stagingEnabled = True
+		EVENTS
+		{
+			listAllObjects
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Debug: Log Objects
+				guiName = Debug: Log Objects
+				category = Debug: Log Objects
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			nextTextureEvent
+			{
+				active = True
+				guiActive = False
+				guiActiveEditor = True
+				guiActiveUncommand = False
+				guiIcon = Next Texture
+				guiName = Change Texture
+				category = Next Texture
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			previousTextureEvent
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Previous Texture
+				guiName = Previous Texture
+				category = Previous Texture
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			nextTextureEVAEvent
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Repaint
+				guiName = Repaint
+				category = Repaint
+				guiActiveUnfocused = False
+				unfocusedRange = 5
+				externalToEVAOnly = True
+			}
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = rn.aerobee150.fin2_4294659610
+	partName = Part
+	pos = -0.1315128,12.33923,0.07592898
+	attPos = 0,0,0
+	attPos0 = -0.1315128,-1.134621,0.07592898
 	rot = 4.618136E-08,-0.258819,1.723512E-07,-0.9659259
 	attRot = 0,0,0,1
 	attRot0 = 4.618136E-08,-0.258819,1.723512E-07,-0.9659259
 	mir = 1,1,1
 	symMethod = Radial
-	istg = 4
-	dstg = 4
+	istg = 0
+	dstg = 0
 	sidx = -1
 	sqor = -1
 	sepI = 0
@@ -1661,9 +1433,9 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
-	sym = rn.aerobee150.srb.fin_4294377724
-	sym = rn.aerobee150.srb.fin_4294377184
-	srfN = srfAttach,rn.aerobee150.srb_4294387722
+	sym = rn.aerobee150.fin2_4294659652
+	sym = rn.aerobee150.fin2_4294659572
+	srfN = srfAttach,rn.aerobee100.mb_4294666068
 	EVENTS
 	{
 	}
@@ -1697,21 +1469,97 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = FStextureSwitch2
+		isEnabled = True
+		selectedTexture = 0
+		selectedTextureURL = RN_US_Rockets/Aerobee/aerobee100_main
+		selectedMapURL = 
+		stagingEnabled = True
+		EVENTS
+		{
+			listAllObjects
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Debug: Log Objects
+				guiName = Debug: Log Objects
+				category = Debug: Log Objects
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			nextTextureEvent
+			{
+				active = True
+				guiActive = False
+				guiActiveEditor = True
+				guiActiveUncommand = False
+				guiIcon = Next Texture
+				guiName = Change Texture
+				category = Next Texture
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			previousTextureEvent
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Previous Texture
+				guiName = Previous Texture
+				category = Previous Texture
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			nextTextureEVAEvent
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Repaint
+				guiName = Repaint
+				category = Repaint
+				guiActiveUnfocused = False
+				unfocusedRange = 5
+				externalToEVAOnly = True
+			}
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
 }
 PART
 {
-	part = rn.aerobee150.srb.fin_4294377184
+	part = rn.aerobee150.fin2_4294659572
 	partName = Part
-	pos = 0.1142611,9.795092,0.06596866
+	pos = 0.1315129,12.33923,0.07592899
 	attPos = 0,0,0
-	attPos0 = 0.1142611,-0.3989162,0.06596866
-	rot = 1.723512E-07,-0.9659259,4.618136E-08,-0.2588191
+	attPos0 = 0.1315129,-1.134621,0.07592899
+	rot = 1.723512E-07,-0.9659259,4.618137E-08,-0.2588191
 	attRot = 0,0,0,1
-	attRot0 = 1.723512E-07,-0.9659259,4.618136E-08,-0.2588191
+	attRot0 = 1.723512E-07,-0.9659259,4.618137E-08,-0.2588191
 	mir = 1,1,1
 	symMethod = Radial
-	istg = 4
-	dstg = 4
+	istg = 0
+	dstg = 0
 	sidx = -1
 	sqor = -1
 	sepI = 0
@@ -1719,9 +1567,9 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
-	sym = rn.aerobee150.srb.fin_4294377724
-	sym = rn.aerobee150.srb.fin_4294377228
-	srfN = srfAttach,rn.aerobee150.srb_4294387722
+	sym = rn.aerobee150.fin2_4294659652
+	sym = rn.aerobee150.fin2_4294659610
+	srfN = srfAttach,rn.aerobee100.mb_4294666068
 	EVENTS
 	{
 	}
@@ -1755,10 +1603,86 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = FStextureSwitch2
+		isEnabled = True
+		selectedTexture = 0
+		selectedTextureURL = RN_US_Rockets/Aerobee/aerobee100_main
+		selectedMapURL = 
+		stagingEnabled = True
+		EVENTS
+		{
+			listAllObjects
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Debug: Log Objects
+				guiName = Debug: Log Objects
+				category = Debug: Log Objects
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			nextTextureEvent
+			{
+				active = True
+				guiActive = False
+				guiActiveEditor = True
+				guiActiveUncommand = False
+				guiIcon = Next Texture
+				guiName = Change Texture
+				category = Next Texture
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			previousTextureEvent
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Previous Texture
+				guiName = Previous Texture
+				category = Previous Texture
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			nextTextureEVAEvent
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Repaint
+				guiName = Repaint
+				category = Repaint
+				guiActiveUnfocused = False
+				unfocusedRange = 5
+				externalToEVAOnly = True
+			}
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
 }
 PART
 {
-	part = rn.aerobee150.nc_4294367490
+	part = rn.aerobee150.nc_4294657598
 	partName = Part
 	pos = 0,15.87412,0
 	attPos = 0,0,0
@@ -1777,7 +1701,7 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
-	attN = bottom,rn.aerobee150.sas_4294429812
+	attN = bottom,rn.aerobee150.sas_4294670620
 	EVENTS
 	{
 	}
@@ -2632,7 +2556,7 @@ PART
 				guiActive = True
 				guiActiveUncommand = False
 				guiIcon = Toggle Transmit Incomplete
-				guiName = Toggle Transmit Incomplete
+				guiName = Require Complete
 				category = Toggle Transmit Incomplete
 				guiActiveUnfocused = False
 				unfocusedRange = 2
