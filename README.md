@@ -19,6 +19,12 @@ Included now:
 ##Old School Fairings Support:
 * If you use old school fairings by Felbourn, here is a module manager config to make the fairings in this mod compatible: [https://www.dropbox.com/s/a6p6pnfmf5hzrwf/RN_OSF.cfg?dl=0](https://www.dropbox.com/s/a6p6pnfmf5hzrwf/RN_OSF.cfg?dl=0)
 
+##Install instructions:
+* Download and install mod from here
+
+* Install dependencies for KSP 1.2.x from here: https://www.dropbox.com/s/paqjbizbmxfhdqc/RN_Dependencies_KSP_v1.2.x.zip?dl=0
+* Install dependencies for KSP 1.3.x from here: https://www.dropbox.com/s/7yly4uu89bixvcl/RN_Dependencies_KSP_v1.3.x.zip?dl=0
+
 ##License:
 
 ![alt tag](https://licensebuttons.net/l/by-nc-nd/3.0/88x31.png)
