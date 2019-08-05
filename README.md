@@ -22,9 +22,6 @@ Included now:
 ##Install instructions:
 * Download and install mod from here
 
-* Install dependencies for KSP 1.2.x from here: https://www.dropbox.com/s/paqjbizbmxfhdqc/RN_Dependencies_KSP_v1.2.x.zip?dl=0
-* Install dependencies for KSP 1.3.x from here: https://www.dropbox.com/s/7yly4uu89bixvcl/RN_Dependencies_KSP_v1.3.x.zip?dl=0
-
 ##License:
 
 ![alt tag](https://licensebuttons.net/l/by-nc-nd/3.0/88x31.png)
