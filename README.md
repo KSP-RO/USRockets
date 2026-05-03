@@ -4,6 +4,7 @@ Included now:
 
 * Scout X1-X4, G Rocket
 * Juno-II
+* Vanguard
 * Thor-Able
 * Delta
 * Thor-Epsilon
