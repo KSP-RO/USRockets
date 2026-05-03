@@ -8,11 +8,12 @@ Included now:
 * Delta
 * Thor-Epsilon
 * Aerobee
+* Titan III
 * Titan IV
 
 **Picture Album:** http://imgur.com/a/FwIMO
 
-![alt tag](http://i.imgur.com/AXMiYpQ.png)
+![alt tag](https://i.imgur.com/JH35fmY.png)
 
 ![alt tag](http://i.imgur.com/vF8OQYJ.png)
 
