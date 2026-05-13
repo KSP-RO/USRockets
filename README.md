@@ -11,10 +11,11 @@ Included now:
 * Aerobee
 * Titan III
 * Titan IV
+* Atlas II
 
 **Picture Album:** http://imgur.com/a/FwIMO
 
-![alt tag](https://i.imgur.com/JH35fmY.png)
+![alt tag](https://i.imgur.com/pOpxjRK.png)
 
 ![alt tag](http://i.imgur.com/vF8OQYJ.png)
 
