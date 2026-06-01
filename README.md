@@ -15,7 +15,7 @@ Included now:
 
 **Picture Album:** http://imgur.com/a/FwIMO
 
-![alt tag](https://i.imgur.com/pOpxjRK.png)
+![alt tag](https://i.imgur.com/UE7H3CF.png)
 
 ![alt tag](http://i.imgur.com/vF8OQYJ.png)
 
